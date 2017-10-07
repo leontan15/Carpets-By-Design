@@ -98,6 +98,15 @@ z-index: -1;
     
 }
 
+
+/*********FrontPage*************/
+@media only screen and (max-width: 479px)
+style.css?ver=2…nocache=1:4689
+.so-widget-sow-hero .sow-slider-base ul.sow-slider-images li.sow-slider-image {
+    height: 10% !important;
+    width: 100%;
+}
+
 /* 500 padding for store widget
 div#sidebar-primary {
     padding-top: 500Px;
