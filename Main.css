@@ -103,7 +103,7 @@ z-index: -1;
 @media only screen and (max-width: 479px)
 style.css?ver=2…nocache=1:4689
 .so-widget-sow-hero .sow-slider-base ul.sow-slider-images li.sow-slider-image {
-    height: 10% !important;
+    height: 500px !important;
     width: 100%;
 }
 
