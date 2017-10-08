@@ -36,13 +36,7 @@ nav#social-navigation-header {
     .woocommerce div.product p.price, .woocommerce div.product span.price {
         transform: initial;
     }
-/* Change footer text colour when in mobile */
-#footer-widgets .footer-widget-area {
-    color: white;
-}
-#footer-widgets .footer-widget-area a {
-    color: white;
-}
+
 /* Remove sidebar in mobile */
 div#sidebar-primary {
     display: none;
