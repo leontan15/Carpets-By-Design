@@ -7,19 +7,8 @@ a#mobile-trigger {
 	display:none;
 }
 */
-/* Search alignment */
-nav#social-navigation-header {
-    transform: translate(2px, 5px);
-}
 
-.inner-wrapper {
-    margin: 0 0 -10px 0;
-}
-
-.site-content{
-    padding: 0;
-}
-
+/**********WOOCOMMERCE CSS ************/
 /* Add shadow to clearance widget */
 .advance-image-grid-wrapper.advance-image-grid-col-4 {
     box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.6);
@@ -84,21 +73,38 @@ div.transbox p {
 z-index: -1;
 }
 
-/* Menu style removal */
-.main-navigation li a::before, .main-navigation li.current-menu-item > a::before, .main-navigation li.current_page_item > a::before {
-    
-    transition: initial;
-    background: initial;
-    
+
+/********Global*************/
+/*Remove Link Styling*/
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+/* Search alignment */
+nav#social-navigation-header {
+    transform: translate(2px, 5px);
 }
 
+.inner-wrapper {
+    margin: 0 0 -10px 0;
+}
 
+.site-content{
+    padding: 0;
+}
 /*********FrontPage*************/
 @media only screen and (max-width: 479px)
 style.css?ver=2…nocache=1:4689
 .so-widget-sow-hero .sow-slider-base ul.sow-slider-images li.sow-slider-image {
     height: 500px !important;
     width: 100%;
+}
+/* Menu style removal */
+.main-navigation li a::before, .main-navigation li.current-menu-item > a::before, .main-navigation li.current_page_item > a::before {
+    
+    transition: initial;
+    background: initial;
+    
 }
 
 /* 500 padding for store widget
