@@ -3,10 +3,11 @@
     display:none;
 }
 */
+/*
 a#mobile-trigger {
 	display:none;
 }
-
+*/
 
 /**********WOOCOMMERCE CSS ************/
 /* Add shadow to clearance widget */
@@ -105,6 +106,11 @@ style.css?ver=2…nocache=1:4689
     transition: initial;
     background: initial;
     
+}
+
+/*Fix slider on movile*/
+.so-widget-sow-hero-default-b48c245eee3d .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper h3 {
+ display: none;
 }
 
 /* 500 padding for store widget
