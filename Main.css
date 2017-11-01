@@ -21,6 +21,14 @@ a#mobile-trigger {
     font-size: 174%;
     font-weight: bold;
 }
+/* Woocommerce slideshow label text */
+div.pp_default .pp_description {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 5px 50px 5px 0;
+}
+
 /* Mobile Settings */
 @media only screen and (max-width: 1023px) {
     .woocommerce div.product p.price, .woocommerce div.product span.price {
